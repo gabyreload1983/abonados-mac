@@ -1,8 +1,5 @@
 const formMac = document.querySelector("#formMac");
 const response = document.querySelector("#response");
-const getMac = document.querySelector("#getMac");
-
-getMac.addEventListener("click", () => {});
 
 formMac.addEventListener("submit", (e) => {
   e.preventDefault();
@@ -29,7 +26,7 @@ formMac.addEventListener("submit", (e) => {
       }
       if (json.status === "error") {
         response.innerHTML = `
-        <h2>Equipo NO ABONADO</h2>`;
+        <h4>Equipo NO ABONADO</h4>`;
       }
     });
 });

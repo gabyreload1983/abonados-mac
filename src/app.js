@@ -1,8 +1,8 @@
 import express from "express";
 import handlebars from "express-handlebars";
 import { __dirname } from "./utils.js";
-import viewsRouter from "./src/routes/web/views.router.js";
-import macRouter from "./src/routes/api/mac.router.js";
+import viewsRouter from "./routes/web/views.router.js";
+import macRouter from "./routes/api/mac.router.js";
 import mongoose from "mongoose";
 
 const app = express();

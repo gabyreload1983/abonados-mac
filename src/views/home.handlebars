@@ -1,11 +1,16 @@
-<div>
+<div class="container">
   <h1>Abonados</h1>
-  <button id="getMac">Obtener MAC</button>
-  <form id="formMac">
-    <label for="mac">MAC</label>
-    <input type="text" id="mac" name="mac" />
-    <button id="validate">Validar abonado</button>
-  </form>
-  <div id="response"></div>
+
+  <div class="row">
+    <div class="col-3">
+
+      <form id="formMac">
+        <label class="form-label">MAC</label>
+        <input class="form-control" type="text" id="mac" name="mac" />
+        <button class="btn btn-success mt-3" id="validate">Validar abonado</button>
+      </form>
+      <div id="response"></div>
+    </div>
+  </div>
 </div>
 <script src="/js/validateMac.js"></script>
